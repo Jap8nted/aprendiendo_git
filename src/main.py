@@ -8,7 +8,7 @@ screen = pygame.display.set_mode([500,500])
 running = True                      
 
 red = (180, 50, 50)
-size = (0, 0, 200, 200)
+size = (0, 0, 250, 200)
 
 
 while running: 
