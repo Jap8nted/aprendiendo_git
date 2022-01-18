@@ -14,7 +14,8 @@ while running:
     screen.fill((255,255,255))
     x = random.randint(100,400)
     y = random.randint(100,400)
-    pygame.draw.circle(screen,(0,100,155),(x,y),25)
+    pygame.draw.circle(screen,(100,180,155),(x,y),25)
+   
    
 
     pygame.display.flip()
