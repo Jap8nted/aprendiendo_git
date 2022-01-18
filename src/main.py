@@ -14,7 +14,7 @@ size = (0, 0, 250, 200)
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            break
+            running = False
 
     screen.fill((255, 255, 255))
     x = random.randint(180, 440)
